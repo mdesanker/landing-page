@@ -21,9 +21,10 @@ body {
     font-size: 24px;
     justify-content: space-between;
     align-items: center;
+    margin: 0 48px;
 }
 .nav-buttons {
-    font-size: 16px;
+    font-size: 14px;
     padding-right: 10px;
 }
 ul {
@@ -38,10 +39,64 @@ a {
     text-decoration: none;
     color:#F9FAF8;
 }
+.hero-container {
+    display: flex;
+    color:#F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20vh 48px;
+}
+.hero-left {
+    width: 400px;
+    align-items: center;
+}
+.hero-right {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+}
 /* PROJECTS SECTION */
 .projects {
     height: 50vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-container {
+    margin: 30px;
+}
+.project-info {
+    text-align: center;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+.file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-spacer{
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    border-radius: 10%;
+}
+.file-info {
+    text-align: center;
 }
 /* QUOTE SECTION */
 .quote {
