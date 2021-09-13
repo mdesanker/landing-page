@@ -102,6 +102,26 @@ a {
 .quote {
     height: 50vh;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container {
+    width: 500px;
+}
+.quote-text{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.quote-name {
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
 }
 /* MOTIVATION SECTION */
 .signup {
