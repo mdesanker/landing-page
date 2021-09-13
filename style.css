@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HERO SECTION */
+.hero {
+    display: flex;
+    height: 100vh;
+    background-color: #1F2937;
+    width: auto;
+}
+.top-nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    width: fit-content;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+.header-link {
+    text-decoration: none;
+    list-style: none;
+    align-content: center;
+    padding: 0 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/* END HERO SECTION */
+.projects {
+    height: 80vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
