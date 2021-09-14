@@ -31,9 +31,10 @@ ul {
     list-style: none;
     color:#F9FAF8;
     display: flex;
+    gap: 20px;
 }
 li {
-    padding: 5px;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -59,6 +60,13 @@ a {
     align-items: center;
     width: 400px;
     height: 150px;
+}
+button {
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5%;
+    color: white;
 }
 /* PROJECTS SECTION */
 .projects {
@@ -93,7 +101,7 @@ a {
     height: 100px;
     background-color: white;
     display: flex;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .file-info {
     text-align: center;
@@ -127,6 +135,27 @@ a {
 .signup {
     height: 40vh;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta-container {
+    display: flex;
+    gap: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 30px 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-text h2, p{
+    margin: 0;
+}
+.cta-button button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 15px;
 }
 /* FOOTER SECTION */
 .footer {
